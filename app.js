@@ -46,7 +46,7 @@ function main() {
         move_snake();
         drawSnake();
         main();
-    }, 100);
+    }, 50);
 }
 
 function clear_board() {
