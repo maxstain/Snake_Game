@@ -1,0 +1,27 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#snakeboard {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score {
+    color: blue;
+    text-align: center;
+    font-size: 70px;
+}
+
+#message {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 450px;
+}
+
+#disclaimer {
+    color: green;
+    text-align: center;
+}
