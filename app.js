@@ -150,7 +150,7 @@ function move_snake() {
 }
 
 document.addEventListener("keypress", function (e) {
-    if ((e.key == "r") && (has_game_ended() == true)) {
+    if ((e.key == "r") && (has_game_ended())) {
         location.reload();
     }
 });
